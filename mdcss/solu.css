@@ -1,0 +1,37 @@
+  h1 { color: red; }
+p {
+     font-size:20px}
+
+span {
+     font-size: 20px 
+    }
+#texto1  {
+     font-size: 20px 
+}
+.texto1 {
+    font-size: 20px
+}
+.texto1 {
+     font-size: 20px
+     }
+p.texto1 {
+     font-size: 20px 
+    }
+    p[name=”mitexto”] { font-size: 20px }
+
+p[name^=”mi”] { font-size: 20px } 
+p[name$=”mi”] { font-size: 20px }
+p[name*=”mi”] { font-size: 20px }
+
+h1{
+    margin-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: limegreen;
+}
